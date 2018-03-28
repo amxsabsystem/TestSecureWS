@@ -1,0 +1,28 @@
+<webservices version="1.2"
+             xmlns="http://www.jboss.com/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee">
+    <!-- para usar el webservice sobre https
+    <property>
+        <name>wsdl.soapAddress.rewrite.wsdl-uri-scheme</name>
+        <value>https</value>
+    </property>
+    -->
+    <!-- http normal -->
+    <property>
+        <name>wsdl.soapAddress.rewrite.wsdl-uri-scheme</name>
+        <value>http</value>
+    </property>
+    <!-- solo apra visibilidad local  
+    <property>
+        <name>wsdl.soapAddress.rewrite.wsdl-host</name>
+        <value>localhost</value>
+    </property>
+    -->
+    <!-- Recomendado por dominio visible desde internet !! -->
+    <property>
+        <name>wsdl.soapAddress.rewrite.wsdl-host</name>
+        <value>srv1-gonet.dynu.net</value>
+    </property>    
+    
+</webservices>
