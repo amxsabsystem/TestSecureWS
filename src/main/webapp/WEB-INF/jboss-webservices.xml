@@ -19,10 +19,10 @@
         <value>localhost</value>
     </property>
     -->
-    <!-- Recomendado por dominio visible desde internet !! -->
+    <!-- Recomendado por dominio visible desde internet !! 
     <property>
         <name>wsdl.soapAddress.rewrite.wsdl-host</name>
         <value>srv1-gonet.dynu.net</value>
     </property>    
-    
+    -->
 </webservices>
