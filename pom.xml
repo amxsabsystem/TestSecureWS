@@ -4,7 +4,7 @@
 
     <groupId>gob.gonet</groupId>
     <artifactId>TestSecureWS</artifactId>
-    <version>1.0</version>
+    <version>1.15</version>
     <packaging>war</packaging>
 
     <name>TestSecureWS</name>

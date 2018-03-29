@@ -8,7 +8,10 @@ import javax.jws.WebParam;
  *
  * @author Alfredo Estrada
  */
-@WebService(serviceName = "CalculatorService")
+@WebService(
+        serviceName = "CalculatorService",
+        wsdlLocation = "WEB-INF/wsdl/CalculatorService.xml",
+        name = "CalculatorService")
 public class CalculatorService {
 
     @WebMethod(operationName = "hello")
